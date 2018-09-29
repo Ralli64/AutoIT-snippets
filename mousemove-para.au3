@@ -1,21 +1,3 @@
-#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=IconExtract\icons\mouse_118854.ico
-#AutoIt3Wrapper_Outfile=mousemove-p32.exe
-#AutoIt3Wrapper_Outfile_x64=mousemove-p64.exe
-#AutoIt3Wrapper_UseUpx=y
-#AutoIt3Wrapper_Compile_Both=y
-#AutoIt3Wrapper_Res_Description=Bewegt Mauszeiger 1 Pixel alle x Minuten.
-#AutoIt3Wrapper_Res_Fileversion=10.0.0.4
-#AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
-#AutoIt3Wrapper_Res_LegalCopyright=® BassFishFox@Gmail.com
-#AutoIt3Wrapper_Res_Language=1031
-#AutoIt3Wrapper_Res_Field=ProductVersion|10
-#AutoIt3Wrapper_Res_Field=ProductName|MauzZeigerBeweger
-#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
-;----------------------------------------------------------------------
-; AutoIt Version: 3.0
-; Author: BassFishFox@gmail.com
-;----------------------------------------------------------------------
 #Include <Date.au3>
 Opt("TrayMenuMode",1)
 Opt("TrayOnEventMode",1)
