@@ -23,4 +23,3 @@ WEnd
 func _ExitScript()
     Exit
 EndFunc
-
