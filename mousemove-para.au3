@@ -8,7 +8,7 @@ TrayItemSetOnEvent(-1,"_ExitScript")
 
 $x = 1
 While 1
-    $y = 60000 				; Multiplicator -> 1000 = 1s, 10000 = 10s, 60000 = 1min
+    $y = 60000 			; Multiplicator -> 1000 = 1s, 10000 = 10s, 60000 = 1min
 	If $x = $CmdLine[1] Then 	; start executable with parameter x like mousemove64.exe 10
 		                     	; MouseMove will run every y * x parameter,
 					; 1 min x 10 = 10 min
