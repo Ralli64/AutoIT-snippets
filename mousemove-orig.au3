@@ -8,12 +8,13 @@ TrayItemSetOnEvent(-1,"_ExitScript")
 
 $x = 1
 while 1
-    sleep(1000) ; 1000 millisec = 1s
-	$t = _NowTime(4) ; Zeile entfernen wenn keine Abschaltung um/ab 18:00
-    if $x = 540 Then ; $x = 60 ist 1 Minute, 540 = 9 Minuten
-	    $m = MouseGetPos()
-        MouseMove($m[0], $m[1]+1) ; +1 = bewegt Cursor 1 Pixel
+    $y = 60000
+    $t = _NowTime(4) 			; Zeile entfernen wenn keine Abschaltung um/ab 18:00
+    if $x = 1 Then 			; $x = 1 ist 1 Minute, 9 = 9 Minuten
+	$m = MouseGetPos()
+        MouseMove($m[0], $m[1]+1) 	; +1 = bewegt Cursor 1 Pixel
         MouseMove($m[0], $m[1])
+	sleep($y*$x)
         $x = 0
     endif
     $x = $x+1
