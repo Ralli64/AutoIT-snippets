@@ -19,6 +19,8 @@ TCPStartup()
 
 ; Convert IP to Name
 
+$nas = "192.168.0.50"
+
 $var = _TCPIpToName($nas, 0)
 
 If $var Then
